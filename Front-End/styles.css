@@ -26,6 +26,7 @@ h3, h2, p {
 
 .contact-information h3 {
     color: white;
+    font-size: 30px;
 }
 
 .phone-section, .email-section, .address-section {
