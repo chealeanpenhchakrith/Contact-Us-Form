@@ -7,3 +7,10 @@
 h3, h2, p {
     font-family: "Open Sans";
 }
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    color: gray;
+}
