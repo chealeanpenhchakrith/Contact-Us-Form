@@ -25,3 +25,12 @@ h3, h2, p {
 .contact-information h3 {
     color: white;
 }
+
+.phone-section, .email-section, .address-section {
+    display: flex;
+    align-items: center;
+}
+
+.phone-section p, .email-section p, .address-section p {
+    margin-left: 10px;
+}
