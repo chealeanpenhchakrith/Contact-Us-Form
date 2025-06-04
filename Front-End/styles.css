@@ -61,3 +61,15 @@ h3, h2, p {
 .message-content {
     margin-top:10px
 }
+
+.send-a-message-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+
+}
+
+.parent-2 {
+    display: flex;
+    flex-direction: column;
+}
