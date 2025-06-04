@@ -34,3 +34,9 @@ h3, h2, p {
 .phone-section p, .email-section p, .address-section p {
     margin-left: 10px;
 }
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
