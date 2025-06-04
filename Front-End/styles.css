@@ -14,3 +14,14 @@ h3, h2, p {
     margin-top: -25px;
     color: gray;
 }
+
+.parent-1 {
+    border: solid;
+    width: 350px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.contact-information h3 {
+    color: white;
+}
