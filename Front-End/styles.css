@@ -40,3 +40,7 @@ h3, h2, p {
     justify-content: space-between;
     width: 50%;
 }
+
+.contact-form {
+    display: flex;
+}
