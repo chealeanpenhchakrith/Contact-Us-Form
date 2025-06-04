@@ -48,3 +48,7 @@ h3, h2, p {
 .first-last-name-section, .email-phone-section {
     display: flex;
 }
+
+.website-query-section {
+    padding-bottom: 25px;
+}
