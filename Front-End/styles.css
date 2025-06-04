@@ -17,9 +17,11 @@ h3, h2, p {
 
 .parent-1 {
     border: solid;
-    width: 350px;
+    width: 478px;
+    height: 640px;
     padding: 20px;
     background-color: rgb(62, 32, 146);
+    border-radius: 2%;
 }
 
 .contact-information h3 {
