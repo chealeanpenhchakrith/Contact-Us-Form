@@ -44,3 +44,7 @@ h3, h2, p {
 .contact-form {
     display: flex;
 }
+
+.first-last-name-section, .email-phone-section {
+    display: flex;
+}
