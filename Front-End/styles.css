@@ -1,0 +1,9 @@
+.contact-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+h3, h2, p {
+    font-family: "Open Sans";
+}
