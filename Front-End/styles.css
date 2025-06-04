@@ -52,3 +52,12 @@ h3, h2, p {
 .website-query-section {
     padding-bottom: 25px;
 }
+
+.message-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-content {
+    margin-top:10px
+}
