@@ -1,11 +1,15 @@
+body {
+    background-color: #f9f9fb;
+}
 .contact-us {
     display: flex;
     justify-content: center;
-    margin-top: 115px;
+    margin-top: 76px;
     font-size: large;
+    color: #000038;
 }
 
-h3, h2, p, h1 {
+h3, h2, p, h1, label{
     font-family: "Open Sans";
 }
 
@@ -14,6 +18,7 @@ h3, h2, p, h1 {
     justify-content: center;
     margin-top: -25px;
     color: gray;
+    margin-bottom: 80px
 }
 
 .parent-1 {
@@ -54,6 +59,7 @@ h3, h2, p, h1 {
 
 .contact-form {
     display: flex;
+    width: 1255px;
 }
 
 .first-last-name-section, .email-phone-section {
@@ -83,11 +89,17 @@ h3, h2, p, h1 {
 .parent-2 {
     display: flex;
     flex-direction: column;
+    padding-left: 45px;
+    padding-top: 45px;
 }
 
 .contact-form {
     display: flex;
     justify-content: center;
+    margin: 0 410px;
+    border-radius: 2%;
+    padding: 5px;
+    background-color: #ffffff;
 }
 
 .footer-icon {
@@ -112,7 +124,6 @@ h3, h2, p, h1 {
     width: 195px;
     height: 195px;
     border-radius: 195px 0 5% 0;
-    top: -1px;
     left: 20px;
 }
 
@@ -171,4 +182,64 @@ h3, h2, p, h1 {
 
 .circle-alone:hover {
     background-color: #f196a3;
+}
+
+.firstname input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-color: #d6d6d8;
+    padding-bottom: 15px;
+    color: #a8a8b0;
+    width: 320px;
+}
+
+.lastname input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-color: #d6d6d8;
+    padding-bottom: 15px;
+    width: 320px;
+}
+
+.email input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-color: #d6d6d8;
+    padding-bottom: 15px;
+    width: 320px;
+
+}
+
+.phone input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-color: #d6d6d8;
+    padding-bottom: 15px;
+    width: 320px;
+}
+
+.email, .phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-phone-section {
+    margin-top: 45px;
+}
+
+.main-frame {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    width: 370px;
 }
