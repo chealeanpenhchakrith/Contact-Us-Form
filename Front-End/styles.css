@@ -100,3 +100,18 @@ h3, h2, p {
     display: flex;
     flex-direction: column;
 }
+
+.pink-cercle {
+    position: relative;
+    background-color: #fa959d;
+    width: 195px;
+    height: 195px;
+    border-radius: 195px 0 5% 0;
+    top: 23px;
+    left: 23px;
+}
+
+.cercle-section {
+    display: flex;
+    justify-content: flex-end;
+}
