@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     margin-top: 115px;
+    font-size: large;
 }
 
-h3, h2, p {
+h3, h2, p, h1 {
     font-family: "Open Sans";
 }
 
