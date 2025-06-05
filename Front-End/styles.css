@@ -184,46 +184,17 @@ h3, h2, p, h1, label{
     background-color: #f196a3;
 }
 
-.firstname input {
+.firstname input, .lastname input, .email input, .phone input {
     border-top: none;
     border-left: none;
     border-right: none;
     outline: none;
     border-color: #d6d6d8;
     padding-bottom: 15px;
-    color: #a8a8b0;
+    color: black;
     width: 320px;
-}
-
-.lastname input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    border-color: #d6d6d8;
-    padding-bottom: 15px;
-    width: 320px;
-}
-
-.email input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    border-color: #d6d6d8;
-    padding-bottom: 15px;
-    width: 320px;
-
-}
-
-.phone input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    outline: none;
-    border-color: #d6d6d8;
-    padding-bottom: 15px;
-    width: 320px;
+    font-size: large;
+    margin-top: 15px;
 }
 
 .email, .phone {
@@ -242,4 +213,8 @@ h3, h2, p, h1, label{
 
 .email {
     width: 370px;
+}
+
+.firstname input:hover, .lastname input:hover, .email input:hover, .phone input:hover {
+    border-color: #352065;
 }
