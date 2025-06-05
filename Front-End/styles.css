@@ -22,6 +22,8 @@ h3, h2, p {
     padding: 20px;
     background-color: rgb(62, 32, 146);
     border-radius: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-information h3 {
@@ -85,4 +87,16 @@ h3, h2, p {
 .contact-form {
     display: flex;
     justify-content: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 40%;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
 }
