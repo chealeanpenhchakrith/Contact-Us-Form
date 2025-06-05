@@ -107,11 +107,22 @@ h3, h2, p {
     width: 195px;
     height: 195px;
     border-radius: 195px 0 5% 0;
-    top: 23px;
+    top: 105px;
     left: 23px;
 }
 
-.cercle-section {
+.cercle-section{
     display: flex;
     justify-content: flex-end;
+}
+
+.purple-cercle {
+    position: relative;
+    background-color: #8759f9;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    bottom: 117px;
+    right: 42px;
+    opacity: 95%;
 }
