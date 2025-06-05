@@ -1,7 +1,7 @@
 .contact-us {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 115px;
 }
 
 h3, h2, p {
@@ -29,6 +29,7 @@ h3, h2, p {
 .contact-information h3 {
     color: white;
     font-size: 30px;
+
 }
 
 .contact-information p {
@@ -99,6 +100,7 @@ h3, h2, p {
 .contact-information {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .pink-cercle {
@@ -111,7 +113,7 @@ h3, h2, p {
     left: 23px;
 }
 
-.cercle-section{
+.cercle-section {
     display: flex;
     justify-content: flex-end;
 }
@@ -125,4 +127,17 @@ h3, h2, p {
     bottom: 117px;
     right: 42px;
     opacity: 95%;
+}
+
+.fill-description {
+    margin-top: -30px;
+    padding-bottom: 40px;
+}
+
+.phone-email-location-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    
 }
