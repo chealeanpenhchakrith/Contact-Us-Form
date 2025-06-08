@@ -217,4 +217,50 @@ h3, h2, p, h1, label{
 
 .firstname input:hover, .lastname input:hover, .email input:hover, .phone input:hover {
     border-color: #352065;
+    cursor: pointer;
+}
+
+.website-query-section input[type="radio"] {
+    display: none;
+}
+
+.website-query-section label {
+    cursor: pointer;
+    position: relative;
+}
+
+.website-query-section label::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translate(64%, -50%);
+    margin: -16px 20px;
+}
+
+.website-query-section label::after {
+    content: "\2713";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35px;
+    top: 17px;
+    margin: -16px 30px;
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 0;
+    background-color: #5b33d4;
+    color: white;
+
+}
+
+.website-query-section input[type="radio"]:checked + label::after {
+    opacity: 1;
 }
