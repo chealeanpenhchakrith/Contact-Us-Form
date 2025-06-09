@@ -267,11 +267,12 @@ h3, h2, p, h1, label{
 }
 
 .message-section {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .website-query-section {
-    margin-top: 47px;
+    margin-top: 30px;
+    padding-bottom: 22px;
 }
 
 .website-query-section p {
@@ -301,3 +302,24 @@ h3, h2, p, h1, label{
     justify-content: space-between;
     margin-right: 97px;
 }
+
+.send-a-message-button button[type="button"]{
+    background-color: #3e2091;
+    color: white;
+    border-radius: 10px;
+    padding: 25px 50px;
+    border: none;
+    font-size: 1rem;
+    color: #d1d1d7;
+}
+
+.send-a-message-button {
+    padding-bottom: 20px;
+    padding-right: 38px;
+    margin-top: 48px;
+}
+
+.message-content input::placeholder, .lastname input::placeholder {
+    color: #c4c3cb;
+}
+
