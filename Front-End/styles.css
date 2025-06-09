@@ -67,7 +67,7 @@ h3, h2, p, h1, label{
 }
 
 .website-query-section {
-    padding-bottom: 25px;
+    padding-bottom: -2px;
 }
 
 .message-section {
@@ -215,7 +215,7 @@ h3, h2, p, h1, label{
     width: 370px;
 }
 
-.firstname input:hover, .lastname input:hover, .email input:hover, .phone input:hover {
+.firstname input:hover, .lastname input:hover, .email input:hover, .phone input:hover, .message-content input:hover {
     border-color: #352065;
     cursor: pointer;
 }
@@ -231,15 +231,16 @@ h3, h2, p, h1, label{
 
 .website-query-section label::before {
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     display: inline-block;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid #a9a8b0;
+    border-width: 2px;
     left: 50%;
     top: 50%;
     transform: translate(64%, -50%);
-    margin: -16px 20px;
+    margin: -17px 20px;
 }
 
 .website-query-section label::after {
@@ -250,7 +251,7 @@ h3, h2, p, h1, label{
     position: absolute;
     left: 35px;
     top: 17px;
-    margin: -16px 30px;
+    margin: -15px 30px;
     margin-left: 0;
     width: 20px;
     height: 20px;
@@ -263,4 +264,40 @@ h3, h2, p, h1, label{
 
 .website-query-section input[type="radio"]:checked + label::after {
     opacity: 1;
+}
+
+.message-section {
+    margin-top: 40px;
+}
+
+.website-query-section {
+    margin-top: 47px;
+}
+
+.website-query-section p {
+    margin-bottom: 30px;
+}
+
+.message-content input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-color: #d6d6d8;
+    padding-bottom: 40px;
+    color: black;
+    width: 690px;
+    font-size: large;
+    margin-top: 15px;
+}
+
+.message-content {
+    margin-top: -10px;
+}
+
+.align-left {
+    margin-left: -30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 97px;
 }
