@@ -7,8 +7,7 @@ This project focuses on user experience and modern UI practices, providing a pro
 
 ## 🖼️ Preview
 
-> *(Add a screenshot if available)*  
-> ![Form Preview](./screenshot.png)
+> ![Form Preview](./Formify.png)
 
 ---
 
