@@ -7,17 +7,17 @@ This project focuses on user experience and modern UI practices, providing a pro
 
 ## 🖼️ Preview
 
-> ![Form Preview](./Formify.png)
+![Form Preview](./Formify.png)
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- ✅ Clean and modern UI
-- 📱 Fully responsive layout
-- ✍️ Interactive form fields with focus states
-- 🤝 User-friendly experience across devices
-- 💡 CSS-only implementation (no JS)
+- Clean and modern UI
+- Fully responsive layout
+- Interactive form fields with focus states
+- User-friendly experience across devices
+- CSS-only implementation (no JS)
 
 ---
 
@@ -28,18 +28,11 @@ This project focuses on user experience and modern UI practices, providing a pro
 
 ---
 
----
-
 ## 📦 Getting Started
 
 To run this project locally:
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/chealeanpenhchakrith/Formify.git
-
-# 2. Navigate into the project folder
 cd Formify
-
-# 3. Open the HTML file in your browser
 open index.html
